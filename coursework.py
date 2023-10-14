@@ -1,10 +1,9 @@
 #!/usr/bin/python
 
-# Author: Sebastian Mills
+# Author: Seb010
 # Title: Quiz version 1.0
-# Last Update: 02.02.2020
+# Last Update: 14.08.2023
 # Description: Quiz program to test knowledge of quadratic formula
-# Notes: Coursework
 # SQLight reference: https://www.tutorialspoint.com/sqlite/sqlite_python.htm
 
 from tkinter import *
@@ -385,25 +384,12 @@ def submitAnswer():
                                            "Please make sure answer is given to 2 decimal places")
   
                   
-            
-
-              
-                    
-
         elif len(answerA)==0:
           empty = tk.messagebox.askyesno("Empty String", "Your answer is empty are you sure you want to continue")
 
             # Code thas will display same set of random numbers until entry is not empty
 
         
-
-
-
-
-
-
-
-
 
     elif firstchoice == 2:
         answerA = answerA.get()
@@ -669,11 +655,11 @@ def about():
 
                                                   "Program Name: Quadratic Formula Quiz\n"
 
-                                                  "Author: Sebastian Mills\n"
+                                                  "Author: Seb010\n"
 
-                                                  "Contact Info: programhelp@yahoo.co.uk\n"
+                                                  "Contact Info: programmer@yahoo.co.uk\n"
 
-                                                  "Contact Info: 07305 597154")
+                                                  "Contact Info: 123 456 789")
 
 
 def how_to_play():
